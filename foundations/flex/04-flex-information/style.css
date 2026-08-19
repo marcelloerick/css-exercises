@@ -24,3 +24,56 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+/* 
+.title {
+  margin-bottom: 32px;
+}
+*/
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 52px;
+}
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+*/
+
+.items {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* 
+.info {
+  max-width: 200px;
+}
+*/
+
+.text {
+  text-align: center;
+  text-wrap: wrap;
+}
+/* 
+body {
+  text-align: center;
+}
+*/
+
+img {
+  align-self: center;
+}
